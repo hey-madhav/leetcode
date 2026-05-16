@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	nums := []int{1,2,4,3}
-	fmt.Println(minMoves(nums, 4))
+	nums := []int{11,13,15,17}
+	fmt.Println(findMin(nums))
 }
