@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	nums := []int{11,13,15,17}
-	fmt.Println(findMin(nums))
+	A := []int{1,3,2,4}
+	B := []int{3,1,2,4}
+	fmt.Println(findThePrefixCommonArray(A, B))
 }
