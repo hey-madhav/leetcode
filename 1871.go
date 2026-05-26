@@ -1,6 +1,6 @@
 package main
 
-func canReach(s string, minJump int, maxJump int) bool {
+func canReach2(s string, minJump int, maxJump int) bool {
 
     n := len(s)
 
