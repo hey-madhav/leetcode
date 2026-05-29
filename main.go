@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	word := "abc"
-	fmt.Println(numberOfSpecialChars2(word))
+	nums := []int{999,19,199} 
+	fmt.Println(minElement(nums))
 }
