@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	nums := []int{999,19,199} 
-	fmt.Println(minElement(nums))
+	mass := 5
+	asteroids := []int{4,9,23,4} 
+	fmt.Println(asteroidsDestroyed(mass, asteroids))
 }
